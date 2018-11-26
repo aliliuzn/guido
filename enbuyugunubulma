@@ -1,0 +1,20 @@
+a = int(input("BİRİNCİ SAYIYI GİR: "))
+b = int(input("İKİNCİ  SAYIYI GİR: "))
+c = int(input("ÜÇÜNCÜ  SAYIYI GİR: "))
+
+if a >= b and a >= c:
+    buyuksayi = a
+    if a<=0<b and a<=0<=c:
+        buyuksayi = b or c
+
+elif b >=a and b >= c:
+    buyuksayi = b
+    if b<=0<=a and b<=0<=c:
+        buyuksayi = a or c
+
+else:
+    buyuksayi = c
+    if c<=0<=a and c<=0<=b:
+        buyuksayi = a or b
+
+print(a, b, c, "arasından en büyük sayı", buyuksayi)
