@@ -1,3 +1,5 @@
+#Girilen 3 sayının (negatif sayılar dahil) en büyüğünü ekrana bastırır.
+
 a = int(input("BİRİNCİ SAYIYI GİR: "))
 b = int(input("İKİNCİ  SAYIYI GİR: "))
 c = int(input("ÜÇÜNCÜ  SAYIYI GİR: "))
